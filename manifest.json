@@ -1,0 +1,17 @@
+{
+  "name": "Auraliz",
+  "short_name": "Auraliz",
+  "description": "Asistente de lectura en voz alta",
+  "start_url": "/auraliz/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#00c8dc",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
