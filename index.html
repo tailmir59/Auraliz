@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  /auraliz/manifest.json">
+<meta name="theme-color" content="#00c8dc">
 <title>Auraliz</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -895,6 +897,11 @@ document.querySelectorAll('.voz-opcion').forEach(function(opcion) {
     opcion.classList.add('activa');
   });
 });
+</script>
+  <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/auraliz/sw.js');
+}
 </script>
 </body>
 </html>
